@@ -7,6 +7,8 @@ var start_btn = document.getElementById("start");
 
 var timer=false;
 
+alert("Welcome to stopwatch..")
+
 start_btn.addEventListener("click", startTimer)
 
 function startTimer() {
